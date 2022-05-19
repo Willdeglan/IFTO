@@ -1,0 +1,220 @@
+ATIVIDADE PRATICA
+
+1)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class at1 {
+
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        double b1, b2, h, result;
+        
+        System.out.println("Vamos calcular a área do trapézio.");
+        System.out.println("Diga o valor para a Base Maio em metro: ");
+            b1 = sc.nextDouble();
+    
+        System.out.println("Diga o valor para a Base Menor em metros: ");
+            b2 = sc.nextDouble();
+       
+        System.out.println("Diga o valor para a Altura em metros: ");
+            h = sc.nextDouble();
+    
+        result = (b1 + b2)*h/2;    
+        
+        System.out.println("A área do trapezio é: "+result+"m²");
+    }
+    
+}
+
+
+2)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        double r, result;
+        
+        System.out.println("Vamos calcular a área do cículo? ");
+        System.out.println("Diga um valor em centímetros para o raio: ");
+            r = sc.nextDouble();
+            
+        result = 3.14*r*r;
+        
+        System.out.println("A área do círculo é: "+result+"cm²");
+    }
+    
+}
+
+
+3)
+package javaapplication1;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class NewMain1 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        double salario=0;
+        
+        System.out.println("Vamos Calcular o ajuste do seu salario com 7.75%? ");
+        System.out.println("Diga quanto é seu salario em R$ ");
+            salario = sc.nextDouble();
+            
+            salario = salario/100*7.75 + salario;
+        
+        System.out.println("Seu novo salrio com reajuste é em R$ "+salario);
+    }
+    
+}
+
+
+
+4)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain2 {
+
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+        
+        double n1, n2, n3, mh;
+        
+        System.out.println("Vamos calvular a média harmônica de 3 notas.");
+        System.out.println("Diga uma nota: ");
+            n1 = sc.nextDouble();
+        
+        System.out.println("Diga a segunda nota: ");
+            n2 = sc.nextDouble();
+        
+        System.out.println("Diga a terceira nota: ");
+            n3 = sc.nextDouble();
+            
+        mh = 3/(1/n1 + 1/n2 + 1/n3);
+        
+        System.out.println("O valor da média harmonica é: "+mh);
+    }
+    
+}
+
+
+5)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain3 {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        double pes, imc=0;
+        float alt;
+        
+        System.out.println("Vamos calcular o IMC de uma pessoa? ");
+        System.out.println("Qual o peso em quilos? ");
+            pes = sc.nextDouble();
+        
+        System.out.println("Qual a altura em centimetros? ");
+            alt = sc.nextFloat();
+            
+        imc = pes/(alt*alt);
+        
+        System.out.println("O IMC é: "+imc*10000+"K/m²");
+    }
+    
+}
+
+
+6)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain4 {
+
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+        
+        double d1, d2, result;
+        
+        System.out.println("Calculando a área do Losango: ");
+        System.out.println("Diga um valor para a diagonal 1 do losango em cm: ");
+            d1 = sc.nextDouble();
+        
+        System.out.println("Diga um outro valor para a diagonal do losango em cm: ");
+            d2 = sc.nextDouble();
+            
+        result = (d1*d2)/2;
+        
+        System.out.println("A área do losango é: "+result+"cm²");
+    }
+    
+}
+
+
+7)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain5 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        double veloc=0;
+        
+        System.out.println("Vamos Converter m/s em Km/h: ");
+        System.out.println("Diga uma velocidade em metros por segundo para converção: ");
+            veloc = sc.nextDouble();
+        
+            veloc = veloc*3.6;
+            
+        System.out.println("A converção ficou: "+veloc+"Km/h");
+    }
+    
+}
+
+
+8)
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class NewMain6 {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        double temp=0;
+        
+        System.out.println("Vamos converter uma temperatura de Celcius em  Fahrenheit");
+        System.out.println("Diga uma temperatura: ");
+            temp = sc.nextDouble();
+            
+            temp = temp*9/5 + 32;
+            
+        System.out.println("A temperatura em Fahrenheit ficou: "+temp+"F");
+    }
+    
+}
